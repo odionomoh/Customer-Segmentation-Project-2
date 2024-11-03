@@ -1,4 +1,4 @@
-# Customer-Segmentation-Project-2
+# LITA-Capstone-Project-2-Customer-Segmentation
 
 # Customer Segmentation Project 2
 
