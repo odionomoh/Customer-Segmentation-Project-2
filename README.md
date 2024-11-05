@@ -1,7 +1,28 @@
 # LITA-Capstone-Project-2-Customer-Segmentation
 
-#  Customer Segmentation for Subscription Service
+# Project title:  Customer Segmentation for Subscription Service
 
+[Project Description](#project-description)
+
+Project Goals
+
+Dataset
+
+Tools Used
+
+Key Findings
+
+[Highlighted Analysis](#highlighted-analysis)
+
+Customer Segmentation Analysis
+
+Cancellation Trends and Reasons Analysis
+
+Subscription Trends Analysis
+
+Featured Visualizations
+
+---
 ## Project Description
 This project involves analyzing customer data to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals.
 
@@ -216,18 +237,20 @@ Bar Chart: Revenue by Region
 
 ## Files
 
-* `CustomerData.xlsx`[Download here](https://docs.google.com/spreadsheets/d/1xpPZfdFjBwxz6qgZIBjoKZ3FTyNQc26L/edit?usp=drive_link&ouid=100692561819122818038&rtpof=true&sd=true): Raw sales data
-* `CustomerQueries.sql`[Download here](https://drive.google.com/file/d/1yzC2ckfsxbJ0X5wXwSbJZ7wCvlLNyQoo/view?usp=drive_link): SQL queries for data extraction
-* `CustomerDashboard.pbix`[Download here](https://drive.google.com/file/d/1RSD4kLFduoH921EaFHC-Z17-FKArsHDy/view?usp=drive_link): Power BI dashboard file
+* `CustomerData.xlsx`[Download here](https://docs.google.com/spreadsheets/d/1RmXPL5P3g8RCMEyhcBfA2Te6KtYHMvzn/edit?usp=drive_link&ouid=100692561819122818038&rtpof=true&sd=true): Raw Customer data
+* `CustomerQueries.sql`[Download here](https://drive.google.com/file/d/10s2Fo7sLgRgu8cNuzyGnj5QCoJG_N1tg/view?usp=drive_link): SQL queries for data extraction
+* `CustomerDashboard.pbix`[Download here](https://drive.google.com/file/d/17qFm3mQ1dKLCWVpKbJ0yzebN69ebLF7H/view?usp=drive_link): Power BI dashboard file
 
 
 ### Database Query
 
 ### Description
-``` Query 1: SELECT * FROM [Tablename]
+``` Query 1:
+SELECT * FROM [Tablename]
 ```
 
-``` Query 2: SELECT 
+``` Query 2:
+SELECT 
     [Region], 
     COUNT(DISTINCT [CustomerID]) AS Total_Customers
 FROM 
